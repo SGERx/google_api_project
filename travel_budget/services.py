@@ -31,13 +31,3 @@ CREDENTIALS = Credentials.from_service_account_info(
 
 SHEETS_SERVICE = discovery.build('sheets', 'v4', credentials=CREDENTIALS)
 DRIVE_SERVICE = discovery.build('drive', 'v3', credentials=CREDENTIALS)
-
-
-# def auth_sheets():
-#     """Функция авторизации для Google Sheets API"""
-#     return SHEETS_SERVICE, CREDENTIALS
-
-
-# def auth_drive():
-#     """Функция авторизации для Google Drive API"""
-#     return DRIVE_SERVICE, CREDENTIALS

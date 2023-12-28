@@ -13,6 +13,7 @@
 
 Python 3.9
 Google API
+Google Drive
 
 ## Как запустить проект
 
